@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    overflow: hidden; /* 隐藏滚动条 */
+    background-color: #000; /* 背景颜色 */
+    color: white; /* 字体颜色 */
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1; /* 确保标题在上方 */
+}
